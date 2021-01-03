@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/Rawan"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/layout_bg"
+    android:backgroundTint="#DFDDE3"
+    android:elevation="20dp">
+
+    <TextView
+        android:id="@+id/movieepi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/moviename"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="-11dp"
+        android:layout_toEndOf="@+id/episods"
+        android:fontFamily="sans-serif-light"
+        android:text="TextView"
+        android:textColor="#00303F"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/episods"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/moviename"
+        android:layout_marginStart="-20dp"
+        android:layout_marginTop="53dp"
+        android:layout_toEndOf="@+id/movieyear"
+        android:fontFamily="sans-serif-light"
+        android:text="Episodes:"
+        android:textColor="#00303F"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/imageView"
+
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="18dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/breakingbad" />
+
+    <TextView
+        android:id="@+id/moviename"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="29dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:fontFamily="sans-serif-medium"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#00303F"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/movieyear"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/moviename"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#00303F"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/moviename"
+        android:layout_marginStart="-149dp"
+        android:layout_marginTop="53dp"
+        android:layout_toEndOf="@+id/movieyear"
+        android:fontFamily="sans-serif-light"
+        android:text="Seasons:"
+        android:textColor="#00303F"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/movieseason"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/moviename"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="53dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:fontFamily="sans-serif-light"
+        android:text="TextView"
+        android:textColor="#00303F"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="11dp"
+        app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+</RelativeLayout>

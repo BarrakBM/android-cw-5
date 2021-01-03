@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "106818486627",
+    "project_id": "tvsign-ef0c8",
+    "storage_bucket": "tvsign-ef0c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106818486627:android:6529b46e358b456a935356",
+        "android_client_info": {
+          "package_name": "com.example.day4app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106818486627-s1q06bgtm03dk8s69k98jhiutlkjmdaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpjW211kLeIHiD0MZk_v9koeuJMYQKWsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106818486627-s1q06bgtm03dk8s69k98jhiutlkjmdaj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

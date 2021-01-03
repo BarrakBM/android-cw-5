@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayour"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4000000"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="@font/taylorserif"
+        android:paddingTop="12dp"
+        android:text="Tv Shows"
+        android:textAlignment="center"
+        android:textColor="#E9F3E045"
+        android:textSize="50sp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/Toolbar1"
+        android:layout_marginTop="5.5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/layout_bg"
+        android:backgroundTint="#DFDDE3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:itemIconTint="#E4000000" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:background="#02000000" />
+</LinearLayout>
